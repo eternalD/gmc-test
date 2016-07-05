@@ -95,22 +95,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    
+}
 
+.block {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
+.hero {
+    background-color: #ccc;
+}
 
+.hero-image {
+    float: left;
+    width: 32%;
+}
 
+.hero-content {
+    float: left; 
+    width: 62%;
+    margin-left: 1%;
+}
 
+.video {
 
+}
 
+.other {
 
-
-
-
-
-
-
-
-
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
