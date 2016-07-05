@@ -12,7 +12,6 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="https://teletext.io/js/latest/txt-min.js"></script>
         <script>
          var options = {
@@ -20,6 +19,9 @@
          };
          Txt.render(options);
         </script>
+        <!-- // Typecast Bundled CSS -->
+        <script type="text/javascript">var __tcaExcludeHostedCss=true;</script>
+        <script type="text/javascript" src="http://typecast.com/project_css/MZZGtz-c3F/383417122cea68.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -27,6 +29,10 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="block header">
+            <img src="img/gmc-logo.png" alt="" />
+        </div>
+
         <div class="block hero clearfix">
             <div class="hero-content">
                 <h1 class="hero-title" data-txt="homepage.hero-title"></h1>
@@ -34,14 +40,27 @@
             </div>
         </div>
 
-        <div class="block video clearfix">
+        <div class="block video-block clearfix">
             <h2 data-txt="homepage.video-title"></h2>
-            <p data-txt="homepage.video-content"></p>
+            
+            <div class="video clearfix" >
+                <h3 data-txt="homepage.video-first-title"></h3>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6v2L2UGZJAM" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+                
+                
+            
         </div>
         
         <div class="block other clearfix">
             <h2 data-txt="homepage.other-title"></h2>
             <p data-txt="homepage.other-content"></p>
+        </div>
+
+        <div class="block copyright">
+            <p>Copyright 2016 GlobalMarket Club</p>
         </div>
 
         <!--<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
