@@ -135,6 +135,29 @@ h3 {
 .header {
     background-color: #000;
     padding: 10px;
+    color: #fff;
+}
+
+.header .txt_language_selector {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.header .txt_language_selector:link {
+    color: #fff;
+}
+.header .txt_language_selector:visited {
+    color: #fff;
+}
+
+.header .txt_language_selector:hover {
+    color: #fff;
+}
+
+.header .txt_language_selector:active {
+    color: #fff;
 }
 
 .block {
