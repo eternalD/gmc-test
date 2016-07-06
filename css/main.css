@@ -112,11 +112,11 @@ p {
 }
 
 h1 {
-   font-size: 106px;
-   line-height: 108px;
-   margin-bottom: 54px;
-   text-align: center;
-   text-transform: uppercase;
+    font-size: 53px;
+    line-height: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -315,11 +315,7 @@ h3 {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-    h1 {
-        font-size: 53px;
-        line-height: 55px;
-        margin-bottom: 25px;
-    }
+    
 }
 
 @media only screen and (min-width: 50em) {
