@@ -315,6 +315,11 @@ h3 {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    h1 {
+        font-size: 53px;
+        line-height: 55px;
+        margin-bottom: 25px;
+    }
 }
 
 @media print,
