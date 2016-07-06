@@ -322,6 +322,15 @@ h3 {
     }
 }
 
+@media only screen and (min-width: 50em) {
+    /* Style adjustments for viewports that meet the condition */
+    h1 {
+        font-size: 106px;
+        line-height: 108px;
+        margin-bottom: 54px;
+    }
+}
+
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
