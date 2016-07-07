@@ -325,6 +325,11 @@ h3 {
         line-height: 108px;
         margin-bottom: 54px;
     }
+    .video {
+        float:left;
+        margin-right: 1%;
+        width: 32%;
+    }
 }
 
 @media print,
